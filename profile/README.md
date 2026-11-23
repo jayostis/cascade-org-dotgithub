@@ -8,15 +8,15 @@ Each person's records live in their own pod: a single-tenant RDF graph, kept as 
 
 ## Start here
 
-**Build an app.** [Try a pod in your browser](https://the-cascade-protocol.github.io/cascade-starter-kit/try/), then follow the [quick start](https://the-cascade-protocol.github.io/cascade-runtime-js/start.html): one command makes an app from [cascade-starter-kit](https://github.com/the-cascade-protocol/cascade-starter-kit), and a coding agent builds your idea on it. The [API](https://the-cascade-protocol.github.io/cascade-runtime-js/api/) is on the hub too.
+**Build an app.** [Try a pod in your browser](https://the-cascade-protocol.github.io/cascade-starter-kit/try/), then follow the [quick start](https://reference.cascadeprotocol.org/start.html): one command makes an app from [cascade-starter-kit](https://github.com/the-cascade-protocol/cascade-starter-kit), and a coding agent builds your idea on it. The [API](https://reference.cascadeprotocol.org/api/) is on the hub too.
 
-**See a pod from the inside.** Open [Alex Rivera's pod](https://the-cascade-protocol.github.io/cascade-runtime-js/alex-rivera/) in the pod explorer: its files, how they are laid out and how a view is built. The hub lists [all four example pods](https://the-cascade-protocol.github.io/cascade-runtime-js/examples.html).
+**See a pod from the inside.** Open [Alex Rivera's pod](https://reference.cascadeprotocol.org/alex-rivera/) in the pod explorer: its files, how they are laid out and how a view is built. The hub lists [all four example pods](https://reference.cascadeprotocol.org/examples.html).
 
 **Write an adapter for a new source format.** Start at [cascade-bridge-spec/adapter](https://github.com/the-cascade-protocol/cascade-bridge-spec/tree/main/adapter).
 
 **Write a runtime, or a Bridge in another language.** Start at [cascade-vocabulary/runtime](https://github.com/the-cascade-protocol/cascade-vocabulary/tree/main/runtime) for a runtime, or [cascade-bridge-spec/engine](https://github.com/the-cascade-protocol/cascade-bridge-spec/tree/main/engine) for a Bridge.
 
-Not sure where to go? [The Cascade hub](https://the-cascade-protocol.github.io/cascade-runtime-js/) says where to find each thing.
+Not sure where to go? [The Cascade hub](https://reference.cascadeprotocol.org/) says where to find each thing.
 
 ## How it fits together
 
@@ -69,7 +69,7 @@ flowchart LR
 
 Conformance is executable:
 
-- A runtime runs every example of the vocabulary's feature files and its conformance kits, and reports each one in EARL. The [latest result](https://the-cascade-protocol.github.io/cascade-runtime-js/conformance/) is on the hub.
+- A runtime runs every example of the vocabulary's feature files and its conformance kits, and reports each one in EARL. The [latest result](https://reference.cascadeprotocol.org/conformance/) is on the hub.
 - A Bridge runs every adapter's test manifest.
 - The vocabulary, the runtime, the Bridge and each adapter has a `compatibility.json` naming what it must pass with.
 
@@ -103,8 +103,8 @@ These repositories are Cascade Protocol v1, the protocol's first version. Apps a
 | [cascade-agent](https://github.com/the-cascade-protocol/cascade-agent) | A natural-language interface to the CLI, `@the-cascade-protocol/agent` | In use; for v2, see the chat and MCP add-ons of cascade-starter-kit |
 | [cascade-knowledge](https://github.com/the-cascade-protocol/cascade-knowledge) | An open clinical knowledge crosswalk: code mappings with provenance for each row | Not part of the v2 stack |
 
-## Licence and trademarks
+## License and trademarks
 
 Code is under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). Vocabulary terms copied from `spec` remain [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Each repository's `LICENSE` governs it.
 
-"Cascade Protocol" and its logo are trademarks of Cascade Agentic Labs LLC. The licences cover the code and the specifications, not the name or logo. See the [trademark policy](https://cascadeprotocol.org/legal/trademarks.html).
+"Cascade Protocol" and its logo are trademarks of Cascade Agentic Labs LLC. The licenses cover the code and the specifications, not the name or logo. See the [trademark policy](https://cascadeprotocol.org/legal/trademarks.html).
