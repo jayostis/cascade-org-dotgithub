@@ -4,7 +4,7 @@
 
 Each person's records live in their own pod: a single-tenant RDF graph, kept as Turtle files. Records arrive from each source format through a **Cascade Bridge** running an **adapter**, so every app reads the same records and asks them the same standard SPARQL questions. Pods can be encrypted, though the format is still being hardened after an outside review and is not yet claimed to be safe ([#733](https://github.com/the-cascade-protocol/cascade-runtime-js/issues/733), [#321](https://github.com/the-cascade-protocol/cascade-runtime-js/issues/321)). It is built on RDF/Turtle, SPARQL 1.1, SHACL, RO-Crate and EARL.
 
-> **Status: draft.** Cascade is a draft: the Bridge's namespace is `v1-draft`, and no compatibility is promised before a numbered v1. No claim is made that anything here is fit for clinical use. None of the current repositories is published to npm yet ([cascade-runtime-js#310](https://github.com/the-cascade-protocol/cascade-runtime-js/issues/310)): the starter kit's command makes an app from a release build, the Rust Bridge is a release build, the sandbox is a git dependency pinned by commit, and the rest is used from a clone.
+> **Status: draft.** Cascade is a draft: the Bridge's namespace is `v1-draft`, and no compatibility is promised before a numbered Bridge v1. No claim is made that anything here is fit for clinical use. None of the current repositories is published to npm yet ([cascade-runtime-js#310](https://github.com/the-cascade-protocol/cascade-runtime-js/issues/310)): the starter kit's command makes an app from a release build, the Rust Bridge is a release build, the sandbox is a git dependency pinned by commit, and the rest is used from a clone.
 
 ## Start here
 
